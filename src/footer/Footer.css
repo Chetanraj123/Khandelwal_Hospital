@@ -1,0 +1,96 @@
+/* Footer */
+.footer {
+    background: linear-gradient(to right, #2864e6, #2c4ebb);
+    /* Updated gradient */
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    width: 22%;
+    min-width: 250px;
+    margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    /* Ensuring white text for headings */
+}
+
+.footer-section p {
+    font-size: 1rem;
+    color: #f1f5f9;
+    /* Light grayish-white for better readability */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #f1f5f9;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+    color: #e2e8f0;
+    /* Slightly brighter white on hover */
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #e2e8f0;
+    transform: scale(1.1);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background: rgba(0, 0, 0, 0.2);
+    /* Subtle transparency effect */
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        width: 80%;
+        text-align: center;
+    }
+}
