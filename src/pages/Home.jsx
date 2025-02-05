@@ -43,7 +43,7 @@ const Home = () => {
     <section className="leadership">
       <div className="leadership-container">
         <div className="leader-card">
-          <img src="/profile.jpeg" alt="President" className="leader-image" />
+          <img src="/profile1.jpeg" alt="President" className="leader-image" />
           <h3 className='leader-name'>Hon.Dr. B. S. Khandelwal  </h3>
           <p className="leader-title">President</p>
           <p className="leader-card-content">At Khandelwal Multispeciality Hospital, we are committed to providing compassionate and high-quality healthcare. Under my leadership, our goal is to ensure that every patient receives the best possible medical care with a personal touch. Your health and well-being remain our top priority.</p>
