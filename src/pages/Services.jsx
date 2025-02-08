@@ -32,12 +32,12 @@ const services = [
     description: 'Advanced diagnostic and pathology laboratory services.',
     price: 'From $50',
   },
-  {
-    icon: HeartPulse,
-    name: 'Cardiac Care',
-    description: 'Specialized cardiac diagnosis and treatment services.',
-    price: 'From $200',
-  },
+  // {
+  //   icon: HeartPulse,
+  //   name: 'Cardiac Care',
+  //   description: 'Specialized cardiac diagnosis and treatment services.',
+  //   price: 'From $200',
+  // },
   {
     icon: Scan,
     name: 'Medical Imaging',
@@ -56,12 +56,12 @@ const services = [
     description: '24/7 emergency medical services and critical care.',
     price: 'From $500',
   },
-  {
-    icon: Brain,
-    name: 'Neurology',
-    description: 'Diagnosis and treatment of neurological disorders.',
-    price: 'From $250',
-  },
+  // {
+  //   icon: Brain,
+  //   name: 'Neurology',
+  //   description: 'Diagnosis and treatment of neurological disorders.',
+  //   price: 'From $250',
+  // },
   {
     icon: Bone,
     name: 'Orthopedics',
@@ -106,6 +106,17 @@ const Services = () => {
         </div>
 
         <div className="services-grid">
+
+          <div className="service-card">
+              <div className="flex items-center justify-between mb-4">
+                <img width="48" height="48" src="https://img.icons8.com/color/48/diabetes-monitor.png" alt="diabetes-monitor"/>
+                {/* <span className="service-price">{service.price}</span> */}
+              </div>
+              <h3 className="service-name">Dibetes Care</h3>
+              <p className="service-description">Controls of diabetes gives new life.</p>
+              {/* <button className="service-button">Learn More →</button> */}
+            </div>
+
           {services.map((service, index) => (
             <div key={index} className="service-card">
               <div className="flex items-center justify-between mb-4">
