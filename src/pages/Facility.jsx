@@ -5,19 +5,19 @@ const facilities = [
   {
     title: "Advanced Diagnostic Center",
     image:
-      "https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "./generalWard.jpeg",
     description: "State-of-the-art diagnostic equipment for accurate and timely diagnosis.",
   },
   {
     title: "Modern Operation Theaters",
     image:
-      "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "./operationTheater.jpeg",
     description: "Fully equipped operation theaters with the latest surgical technology.",
   },
   {
     title: "Intensive Care Unit",
     image:
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "./reception.jpeg",
     description: "24/7 intensive care facilities with advanced life support systems.",
   },
   {
@@ -25,6 +25,12 @@ const facilities = [
     image:
       "https://images.unsplash.com/photo-1579154204601-01588f351e67?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     description: "Comprehensive laboratory services for all types of medical tests.",
+  },
+  {
+    title: "Pharmacy Services",
+    image:
+      "./pharmacy.jpeg",
+    description: "Complete pharmacy solutions providing quality medicines and healthcare products.",
   },
 ];
 

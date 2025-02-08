@@ -13,7 +13,6 @@ import {
   Eye,
   Bluetooth as Tooth,
 } from 'lucide-react';
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTooth } from "@fortawesome/free-solid-svg-icons";
 
